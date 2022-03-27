@@ -1,0 +1,86 @@
+body {
+  background-color: grey;
+  background-image: url("https://cdn.wallpapersafari.com/96/21/wIapZY.jpg");
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.videoCardSize {
+  text-align: center;
+  position: relative;
+  width: 13rem;
+  height: 10rem;
+  margin: 0.5rem 1rem 1rem 0.5rem;
+}
+
+.position-left {
+  float: left;
+}
+
+.positon-middle {
+  float: left;
+}
+
+.position-right {
+  float: right;
+}
+
+.title-header {
+  color: greenyellow;
+  margin-top: 2.5rem;
+  background-color: cadetblue;
+  margin-right: 2rem;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.videoTitle {
+  position: relative;
+  bottom: 7rem;
+  color: aqua;
+}
+
+.sign-button {
+  margin-top: 1rem;
+  padding: 0.5rem;
+  width: 6.5rem;
+  left: 0.5rem;
+  height: 2rem;
+  bottom: 5.5rem;
+  color: black;
+  border-color: silver;
+  text-align: center;
+  position: relative;
+  background-color: greenyellow;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.sign-button:hover {
+  background-color: black;
+  color: greenyellow;
+}
+.backdrop {
+  background-color: #448;
+}
+
+.div-tile {
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(3, 5vw);
+  grid-gap: 10px;
+}
+
+.img-gallery {
+  width: 100%;
+  height: 70%;
+  object-fit: cover;
+}
+
+.buttonStyle {
+  padding: 0.5rem;
+  margin-right: 0.5rem;
+  margin-left: 0.5rem;
+}
